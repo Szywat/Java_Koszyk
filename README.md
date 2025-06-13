@@ -10,7 +10,7 @@ Przekroczenie terminu o **n** zajęć wiąże się z karą:
 
 --- 
 
-Twoja firma dostała zlecenie na stworzenie oprogramowania dla dużego sklepu internetowego *JavaMarkt*. 
+Twoja firma dostała zlecenie na stworzenie oprogramowania dla dużego sklepu internetowego *main.JavaMarkt*. 
 Jedną z podstawowych funkcjonalności jest oprogramowanie koszyka zakupów, 
 który potrafi uwzględniać różne promocje, rabaty oraz oferty specjalne, takie jak:
 - jeśli wartość zamówienia jest większa niż 300 zł klient otrzymuje 5% zniżki na zakupione towary
@@ -24,7 +24,7 @@ Towary w koszyku powinny być posegregowane malejąco według ceny,
 a potem według kolejności alfabetycznej nazw produktów. 
 Sposób sortowania może produktów może się zmieniać w trakcie działania programu. 
 
-Twoim zadaniem jest zaimplementowanie logiki, operującej na obiektach typu ``Product``, 
+Twoim zadaniem jest zaimplementowanie logiki, operującej na obiektach typu ``main.Product``, 
 która umożliwiałaby:
 1. Wyszukiwanie najtańszego/najdroższego produktu w zadanej kolekcji produktów
 2. Wyszukiwanie n najtańszych/najdrożyszych produktów w zadanej kolekcji produktów
@@ -34,7 +34,7 @@ która umożliwiałaby:
 7. Umożliwiać dodawanie nowych promocji, o jeszcze nieznanych cechach, z zachowaniem zasad SOLID
 8. Proponować najkorzystniejszy sposób stosowania promocji; wynik zakupów może zależeć o doboru promocji i kolejności ich zastosowania.
 
-Cechy związane z klasą ``Product``:
+Cechy związane z klasą ``main.Product``:
 - kod produktu (code) - String
 - nazwa produktu (name) - String
 - cena produktu (price) – double
